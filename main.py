@@ -6,6 +6,6 @@ app = FastAPI()
 
 @app.get("/api/v1/hello")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Dockerrrrrrrrrrrrrrrrrr!"}
 
 app.mount("/", StaticFiles(directory="ui/dist", html=True), name="ui")
